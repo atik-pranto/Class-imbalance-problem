@@ -8,4 +8,14 @@ Then from that balanced data set multiple classification models are built using 
 Finally, the classification models are combined using max ensemble rules.The empirical analysis using fifteen imbalanced data set show that Random Splitting based data balancing 
 method with min-max normalization is dominant over the other methods for Random Forest classifier.
 
+# Rank in Decision Tree
+![r-DT](https://user-images.githubusercontent.com/84571107/121468532-c03ad000-c9dc-11eb-9734-d4c55be04f0b.JPG)
+
+# Rank in Naive Bayes
+![r-NB](https://user-images.githubusercontent.com/84571107/121468540-c5981a80-c9dc-11eb-88b5-2e2d9871530a.JPG)
+
+# Rank in Random Forest
+![r-RF](https://user-images.githubusercontent.com/84571107/121468552-c8930b00-c9dc-11eb-9596-bb477176fcc1.JPG)
+
+Here Rusboost means Random Undersampling with adaboost algorithm. Rosboost means Random Oversampling with adaboost algorithm. The Rank is based on the auc value. The model with higher auc value got ranked one.
 
